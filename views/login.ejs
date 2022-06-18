@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>URL Shortener</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+         .headertext {
+         font-family: 'Bangers', cursive; 
+         font-size: 8em;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="pt-5">
+            <h1 class="text-center fw-bold headertext">URL Shortener</h1>
+         </div>
+         <div class="row p-5">
+            <div class=" container border border-info rounded px-2 m-5 col">
+               <form action="/sign-up" method="POST">
+                  <div class="row m-2">
+                     <div class="col">
+                        <input required type="text" name="username" id="username" placeholder="username" class="form-control"/>
+                     </div>
+                  </div>
+                  <div class="row m-2 mb-4">
+                     <div class="col">
+                        <input required type="password" name="password" id="password" placeholder="password" class="form-control"/>
+                     </div>
+                  </div>
+                  <div class="row m-2 justify-content-end">
+                     <div class="col">
+                        <button type="submit" class="btn btn-outline-info">Sign Up</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class=" container border border-primary rounded px-2 m-5 col">
+               <form action="/login" method="POST">
+                  <div class="row m-2">
+                     <div class="col">
+                        <input required type="text" name="username" id="username" placeholder="username" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="row m-2 mb-4">
+                     <div class="col">
+                        <input required type="password" name="password" id="password" placeholder="password" class="form-control" />
+                     </div>
+                  </div>
+                  <div class="row m-2 justify-content-end">
+                     <div class="col">
+                        <button type="submit" class="btn btn-primary" >Login</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
