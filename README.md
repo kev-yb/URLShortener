@@ -11,8 +11,6 @@ URL Shotener.
 6. Hit "Sign Out" to logout and return to login page
 
 
-<img width="1418" alt="Screen Shot 2022-06-19 at 11 18 13 PM" src="https://user-images.githubusercontent.com/76458258/174485601-79502b80-e1a9-4d4f-94dc-bd7eeb6a15b0.png">
-
 <details>
 <summary>Sign-up/Login Page</summary>
 
