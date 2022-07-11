@@ -57,8 +57,7 @@ app.post('/login', async (req, res)=>{
   }
   else{
     const user = {
-      username: userInfo[0].username,
-      password: userInfo[0].password
+      username: userInfo[0].username
     };
     const accessToken = jwt.sign(user, `${process.env.ACCESS_TOKEN_SECRET}`);
     res.cookie('token', accessToken);
